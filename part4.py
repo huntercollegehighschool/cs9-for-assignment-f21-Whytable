@@ -37,6 +37,50 @@ fizz
 buzz
 fizz
 
-"""
 
+
+
+if 
+    print("fizz")
+  
+  elif i % 5:
+    print("buzz")
+  
+  elif i % 3 and i % 5:
+    print("fizzbuzz")
+  
+  else:
+    print(i)
+
+
+
+"""
 # write your code here 
+
+is_divisible3 = False
+is_divisible5 = False
+remainder3 = 0
+remainder5 = 0
+n = int(input("Enter a number: "))
+
+for i in range(1, n+1, 1):
+  remainder3 = i % 3
+  is_divisible3 = remainder3 == 0
+
+  remainder5 = i % 5
+  is_divisible5 = remainder5 == 0
+
+  if is_divisible5 == True and is_divisible3 == True:
+    print("fizzbuzz")  
+  elif is_divisible3 == True:
+    print("fizz")
+  elif is_divisible5 == True:
+    print("buzz")
+  else:
+    print(i)
+
+
+
+
+
+
