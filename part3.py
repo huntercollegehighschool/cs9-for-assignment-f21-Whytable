@@ -19,3 +19,13 @@ Enter the height: 3
 """
 
 #write your code here 
+
+L = int(input("Enter the base of the rectangle: "))
+H = int(input("Enter the height of the rectange: "))
+
+if L > 0 and H > 0:
+  for i in range(1, H + 1, 1):
+    print('*' * L)
+
+if L < 1 or H < 1:
+  print("Run the program again with an integer!")
